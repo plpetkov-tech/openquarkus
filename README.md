@@ -1,8 +1,9 @@
-# openquarkus project
+# Openquarkus project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+## This project is intended for training and demo purposes using Openshift and Quarkus
 
 ## Running the application in dev mode
 
@@ -18,6 +19,8 @@ It produces the `openquarkus-1.0-SNAPSHOT-runner.jar` file in the `/target` dire
 Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/lib` directory.
 
 The application is now runnable using `java -jar target/openquarkus-1.0-SNAPSHOT-runner.jar`.
+
+# Openshift commands and steps
 
 ## Creating a native executable
 
