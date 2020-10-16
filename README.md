@@ -8,7 +8,7 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 1. ```mvn build```
 2. ``` oc new-build --strategy docker --dockerfile - --code . --name openquarkus-java11-v2 < src/main/docker/Dockerfile.jvm   ```
 3. ``` oc start-build --from-dir . openquarkus-java11-v2    ```
-4. ``` oc new-app --image-stream projectName/openquarkus-java11-v2:latest --name openquarkus-java11-v2 
+4. ``` oc new-app --image-stream projectName/openquarkus-java11-v2:latest --name openquarkus-java11-v2 ```
 5. ``` oc expose svc/openquarkus-java11-v2 ```
 6. To view the details : ``` oc describe route openquarkus-java11-v2 ```
 
