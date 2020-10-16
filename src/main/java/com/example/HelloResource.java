@@ -11,6 +11,6 @@ public class HelloResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello to Openshift from our Hook!";
+        return "Hello to Openshift from our Hook!!";
     }
 }
